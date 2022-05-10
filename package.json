@@ -1,0 +1,30 @@
+{
+  "name": "react-lazily-example",
+  "version": "1.0.0",
+  "description": "How to use named imports with React.lazy (when you don't want to use default export)\n\nhttps://www.npmjs.com/package/react-lazily",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-lazily": "0.9.1",
+    "react-scripts": "4.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "typescript": "3.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
